@@ -1,0 +1,38 @@
+{
+  "name": "kuro",
+  "version": "1.0.0",
+  "description": "A Discord stat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
+  },
+  "keywords": [],
+  "author": "Wyatt Path",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyattpath/kuro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wyattpath/kuro/issues"
+  },
+  "homepage": "https://github.com/wyattpath/kuro#readme",
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-mockito": "^2.5.0",
+    "ts-node": "^8.5.4"
+  }
+}
