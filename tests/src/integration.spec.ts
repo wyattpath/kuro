@@ -2,7 +2,7 @@ import 'mocha';
 import container from "../../inversify.config";
 import {TYPES} from "../../src/types";
 import {Client} from "discord.js";
-import {Bot} from "../../src/bot";
+import {Bot} from "../../src/Bot";
 import {instance, mock} from "ts-mockito";
 describe('Bot', () => {
     let discordMock: Client;

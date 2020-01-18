@@ -1,8 +1,8 @@
 import "reflect-metadata";
 import 'mocha';
 import {expect} from 'chai';
-import {PingFinder} from "../../../src/services/ping-finder";
-import {MessageResponder} from "../../../src/services/message-responder";
+import {PingFinder} from "../../../src/services/PingFinder";
+import {MessageResponder} from "../../../src/services/MessageResponder";
 import {instance, mock, verify, when} from "ts-mockito";
 import {Message} from "discord.js";
 
