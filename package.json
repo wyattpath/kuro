@@ -25,7 +25,8 @@
     "dotenv": "^8.2.0",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.13",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "express": "latest"
   },
   "devDependencies": {
     "@types/chai": "^4.2.7",
